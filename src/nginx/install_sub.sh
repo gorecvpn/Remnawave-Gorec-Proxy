@@ -46,13 +46,13 @@ install_sub_collect() {
         case "$sub_auth_choice" in
             1)
                 while true; do
-                    reading "${LANG[ENTER_SUB_PANEL_COOKIE]}" SUB_EGAMES_COOKIE || return 1
-                    if [[ "$SUB_EGAMES_COOKIE" =~ ^[A-Za-z0-9_]+=[A-Za-z0-9_]+$ ]]; then
+                    reading "${LANG[ENTER_SUB_PANEL_COOKIE]}" SUB_GOREC_COOKIE || return 1
+                    if [[ "$SUB_GOREC_COOKIE" =~ ^[A-Za-z0-9_]+=[A-Za-z0-9_]+$ ]]; then
                         break
                     fi
                     echo -e "${COLOR_RED}${LANG[INVALID_COOKIE_FORMAT]}${COLOR_RESET}"
                 done
-                SUB_AUTH_ENV=$(printf '\n      - EGAMES_COOKIE=%s' "$SUB_EGAMES_COOKIE")
+                SUB_AUTH_ENV=$(printf '\n      - EGAMES_COOKIE=%s' "$SUB_GOREC_COOKIE")
                 break
                 ;;
             2)

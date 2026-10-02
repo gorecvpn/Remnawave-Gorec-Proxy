@@ -36,7 +36,7 @@ LANG[LANG_FILE_UPDATED]="✓ %s updated"
 LANG[LANG_FILE_UPDATE_FAILED]="✗ Failed to update %s"
 LANG[UPDATING_MODULES]="Updating modules..."
 #Menu
-LANG[MENU_TITLE]="REMNAWAVE REVERSE-PROXY by eGames"
+LANG[MENU_TITLE]="REMNAWAVE REVERSE-PROXY by Gorec"
 LANG[AVAILABLE_UPDATE]="script update available"
 LANG[VERSION_LABEL]="Version: %s"
 LANG[EXIT]="Exit"

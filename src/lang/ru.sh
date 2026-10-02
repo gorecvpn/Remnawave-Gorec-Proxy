@@ -13,7 +13,7 @@ LANG[LANG_RU]="Русский"
 #Check
 LANG[ERROR_ROOT]="Скрипт нужно запускать с правами root"
 LANG[ERROR_OS]="Поддержка только Debian 11/12 и Ubuntu 22.04/24.04"
-LANG[MENU_TITLE]="REMNAWAVE REVERSE-PROXY by eGames"
+LANG[MENU_TITLE]="REMNAWAVE REVERSE-PROXY by Gorec"
 LANG[AVAILABLE_UPDATE]="доступно обновление скрипта"
 LANG[VERSION_LABEL]="Версия: %s"
 #Install Packages
