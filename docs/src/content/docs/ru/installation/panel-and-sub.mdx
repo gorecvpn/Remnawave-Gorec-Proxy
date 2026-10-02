@@ -14,7 +14,7 @@ import { Steps, LinkButton, Tabs, TabItem } from '@astrojs/starlight/components'
 Введите данную команду на вашем сервере:
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/eGamesAPI/remnawave-reverse-proxy/refs/heads/main/install_remnawave.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/gorecvpn/Remnawave-Gorec-Proxy/refs/heads/main/install_remnawave.sh)
 ```
 
 ## Установка панели и страницы подписки
@@ -23,18 +23,18 @@ bash <(curl -Ls https://raw.githubusercontent.com/eGamesAPI/remnawave-reverse-pr
 
 1. Выберите пункт `Установка компонентов Remnawave`
 
-    ![Главное меню](https://raw.githubusercontent.com/eGamesAPI/remnawave-reverse-proxy/refs/heads/main/docs/src/assets/ru/main_menu.webp)
+    ![Главное меню](https://raw.githubusercontent.com/gorecvpn/Remnawave-Gorec-Proxy/refs/heads/main/docs/src/assets/ru/main_menu.webp)
 
 2. Затем выберите пункт `Установить панель и страницу подписки`
 
-    ![Установить панель и страницу подписки](https://raw.githubusercontent.com/eGamesAPI/remnawave-reverse-proxy/refs/heads/main/docs/src/assets/ru/install_panel_sub.webp)
+    ![Установить панель и страницу подписки](https://raw.githubusercontent.com/gorecvpn/Remnawave-Gorec-Proxy/refs/heads/main/docs/src/assets/ru/install_panel_sub.webp)
 
 3. Выберите веб-сервер для панели. Скрипт полностью поддерживает оба варианта:
 
     - **Nginx** — классическая схема, которая использовалась во всех предыдущих версиях.
     - **Caddy** — автоматические HTTPS-сертификаты из коробки.
 
-    ![Выберите веб-сервер](https://raw.githubusercontent.com/eGamesAPI/remnawave-reverse-proxy/refs/heads/main/docs/src/assets/ru/webserver_select.webp)
+    ![Выберите веб-сервер](https://raw.githubusercontent.com/gorecvpn/Remnawave-Gorec-Proxy/refs/heads/main/docs/src/assets/ru/webserver_select.webp)
 
 4. Введите три домена по запросу скрипта — панели, страницы подписки и ноды.
 
@@ -49,13 +49,13 @@ bash <(curl -Ls https://raw.githubusercontent.com/eGamesAPI/remnawave-reverse-pr
         1. `Cookie-защита (по умолчанию)` — панель защищена секретной ссылкой, как в предыдущих версиях.
         2. `Страница входа (TinyAuth)` — дополнительная страница входа перед панелью. Скрипт сам развернёт TinyAuth и создаст пользователя.
 
-        ![Способ защиты панели (nginx)](https://raw.githubusercontent.com/eGamesAPI/remnawave-reverse-proxy/refs/heads/main/docs/src/assets/ru/panel_auth_nginx.webp)
+        ![Способ защиты панели (nginx)](https://raw.githubusercontent.com/gorecvpn/Remnawave-Gorec-Proxy/refs/heads/main/docs/src/assets/ru/panel_auth_nginx.webp)
       </TabItem>
       <TabItem label="Caddy" icon="seti:caddy">
         1. `Cookie-защита (по умолчанию)` — панель защищена секретной ссылкой, как в предыдущих версиях.
         2. `Страница входа с MFA` — портал входа с многофакторной аутентификацией перед панелью.
 
-        ![Способ защиты панели (caddy)](https://raw.githubusercontent.com/eGamesAPI/remnawave-reverse-proxy/refs/heads/main/docs/src/assets/ru/panel_auth_caddy.webp)
+        ![Способ защиты панели (caddy)](https://raw.githubusercontent.com/gorecvpn/Remnawave-Gorec-Proxy/refs/heads/main/docs/src/assets/ru/panel_auth_caddy.webp)
 
         :::note
         При включении портала с MFA настройте MFA для администратора после первого входа.
@@ -84,7 +84,7 @@ https://p.example.com/auth/login?SECRET_KEY=SECRET_KEY
 
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem', textAlign: 'center' }}>
     <LinkButton
-        href="https://github.com/eGamesAPI/remnawave-reverse-proxy/releases/latest"
+        href="https://github.com/gorecvpn/Remnawave-Gorec-Proxy/releases/latest"
         icon="github"
         iconPlacement="start"
     >

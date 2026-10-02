@@ -28,7 +28,7 @@ const copy = isRu
     };
 
 const INSTALL_CMD =
-  'bash <(curl -Ls https://raw.githubusercontent.com/eGamesAPI/remnawave-reverse-proxy/refs/heads/main/install_remnawave.sh)';
+  'bash <(curl -Ls https://raw.githubusercontent.com/gorecvpn/Remnawave-Gorec-Proxy/refs/heads/main/install_remnawave.sh)';
 ---
 
 <div class="splash" data-install-cmd={INSTALL_CMD}>
@@ -334,7 +334,7 @@ const INSTALL_CMD =
     const isRu = document.documentElement.lang.toLowerCase().startsWith('ru');
     const REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
     const INSTALL_CMD = root.dataset.installCmd || '';
-    const GH_REPO = 'eGamesAPI/remnawave-reverse-proxy';
+    const GH_REPO = 'gorecvpn/Remnawave-Gorec-Proxy';
     let appVersion = '3.4.0';
     const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 

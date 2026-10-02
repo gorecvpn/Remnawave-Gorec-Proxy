@@ -15,16 +15,16 @@ Script must be run as **root**, and also on the server where the Remnawave panel
 Enter the command on your server:
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/eGamesAPI/remnawave-reverse-proxy/refs/heads/main/install_remnawave.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/gorecvpn/Remnawave-Gorec-Proxy/refs/heads/main/install_remnawave.sh)
 ```
 
 ## Add node to panel
 
 Select `Install Remnawave components`, then `Add node to panel`.
 
-![Main menu EN](https://raw.githubusercontent.com/eGamesAPI/remnawave-reverse-proxy/refs/heads/main/docs/src/assets/en/main_menu.webp)
+![Main menu EN](https://raw.githubusercontent.com/gorecvpn/Remnawave-Gorec-Proxy/refs/heads/main/docs/src/assets/en/main_menu.webp)
 
-![Add node to panel EN](https://raw.githubusercontent.com/eGamesAPI/remnawave-reverse-proxy/refs/heads/main/docs/src/assets/en/add_node_to_panel.webp)
+![Add node to panel EN](https://raw.githubusercontent.com/gorecvpn/Remnawave-Gorec-Proxy/refs/heads/main/docs/src/assets/en/add_node_to_panel.webp)
 
 After confirming you are on the panel server, the script asks how to set up the node server: `Automatically over SSH` or `Manually`. For the automatic mode a web server is then chosen, nginx or Caddy. From there you enter the node domain and its name — the difference is only in who installs the node on the server.
 
@@ -82,7 +82,7 @@ The script creates the node, profile and host in the panel, and you perform the 
     Don't forget to add a DNS record for your domain.
     :::
 
-    ![Add node to panel2 EN](https://raw.githubusercontent.com/eGamesAPI/remnawave-reverse-proxy/refs/heads/main/docs/src/assets/en/add_node_to_panel2.webp)
+    ![Add node to panel2 EN](https://raw.githubusercontent.com/gorecvpn/Remnawave-Gorec-Proxy/refs/heads/main/docs/src/assets/en/add_node_to_panel2.webp)
 
 2. After successfully adding the node to the panel, run the script on your new server, where the Remnawave node will be installed, select `Install Remnawave components`, and then [`Install only the node`](https://wiki.egam.es/installation/node-only/).
 
@@ -94,7 +94,7 @@ Make sure to update the script before running things in it. You can do this by s
 
 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem', textAlign: 'center' }}>
     <LinkButton
-        href="https://github.com/eGamesAPI/remnawave-reverse-proxy/releases/latest"
+        href="https://github.com/gorecvpn/Remnawave-Gorec-Proxy/releases/latest"
         icon="github"
         iconPlacement="start"
     >

@@ -7,7 +7,7 @@ LANG_FILE="${DIR_REMNAWAVE}selected_language"
 # Where this script and its modules/languages are downloaded from.
 # Flip SOURCE_BRANCH to "dev" to point every download at the development
 # branch at once — no other URL in this file mentions the branch.
-SOURCE_REPO="eGamesAPI/remnawave-reverse-proxy"
+SOURCE_REPO="gorecvpn/Remnawave-Gorec-Proxy"
 SOURCE_BRANCH="main"
 SOURCE_BASE_URL="https://raw.githubusercontent.com/${SOURCE_REPO}/refs/heads/${SOURCE_BRANCH}"
 

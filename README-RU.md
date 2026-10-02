@@ -1,8 +1,8 @@
-<p aling="center"><a href="https://github.com/eGamesAPI/remnawave-reverse-proxy">
+<p aling="center"><a href="https://github.com/gorecvpn/Remnawave-Gorec-Proxy">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="./media/logo.png" />
    <source media="(prefers-color-scheme: light)" srcset="./media/logo-black.png" />
-   <img alt="Remnawave Reverse Proxy" src="https://github.com/eGamesAPI/remnawave-reverse-proxy" />
+   <img alt="Remnawave Reverse Proxy" src="https://github.com/gorecvpn/Remnawave-Gorec-Proxy" />
  </picture>
 </a></p>
 
@@ -173,12 +173,12 @@ https://panel.example.com/auth/login?<SECRET_KEY>=<SECRET_KEY>
 
 Выполните следующую команду для начала установки:
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/eGamesAPI/remnawave-reverse-proxy/refs/heads/main/install_remnawave.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/gorecvpn/Remnawave-Gorec-Proxy/refs/heads/main/install_remnawave.sh)
 ```
 
 Если GitHub недоступен, используйте зеркало на jsDelivr:
 ```bash
-bash <(curl -Ls https://cdn.jsdelivr.net/gh/eGamesAPI/remnawave-reverse-proxy@main/install_remnawave.sh)
+bash <(curl -Ls https://cdn.jsdelivr.net/gh/gorecvpn/Remnawave-Gorec-Proxy@main/install_remnawave.sh)
 ```
 
 <p align="center">
